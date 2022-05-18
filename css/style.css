@@ -1,0 +1,269 @@
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url(../fonts/CormorantInfant-Medium.ttf);
+}
+body{
+    font-family: "Cormorant Garamond";
+    background-color: #DCEBE4;
+    color: #223830;
+}
+header{
+    margin-top: 65px;
+    width: 1903px;
+    height: 500px;
+    background-image: url(../img/1.jpg);
+}
+.menu{
+    display: block;
+    background-color: #D7D6D6;
+    width: 1903px;
+    height: 65px;
+    margin-top:-65px;
+    text-align: center;
+    font-size: 30px;
+}
+ul{
+    padding-top: 20px;
+}
+li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 100px;
+    align-items: center;
+    margin:20px;
+    
+}
+a{
+    text-decoration: none;
+    color: #35584c;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.logo{
+    margin-top: -100px;
+}
+.logo2{
+    padding-left: 600px;
+}
+.text{
+     display: block;
+    background: rgba(153, 180, 159, 0.8);
+    width: 200px;
+    height: 44px;
+    margin-top: -20px;
+    margin-left: 1200px;
+}
+p{
+    padding-left:20px ;
+    font-size: 30px;
+}
+.wrapper
+{
+    max-width:1115px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section_2{
+    display: flex;
+    justify-content: space-between;
+}
+.block_1{
+    background-color: #B7D0C1;
+    display: block;
+    height: 220px;
+    width: 260px;
+    margin-left: 0px;
+    margin-top: 90px;
+}
+.plus{
+    background-color: #E2F6F3;
+    display: block;
+    height: 50.5px;
+    width: 41px;
+    margin-left: 219px;
+    margin-top: -58px;
+   
+}
+h3{
+     color: #11302457;
+    font-size: 90px;
+    margin-top: -87px;
+    margin-left: 221px;
+}
+h2{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.play{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.block_2{
+    background-color: #B7D0C1;
+    display: block;
+    height: 220px;
+    width: 260px;
+    margin-left: 1px;
+    margin-top: 90px;
+}
+.block_3{
+    background-color: #B7D0C1;
+    display: block;
+    height: 220px;
+    width: 260px;
+    margin-left: 1px;
+    margin-top: 90px;
+}
+.red_book{
+    background-color:rgba(221, 102, 102, 0.65) ;
+    display: block;
+    height: 50px;
+    width:1903px ;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+h4{
+    color: #4F2517;
+    padding-top: 2px;
+}
+.wrapper_2
+{
+    max-width:1000px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.red_block{
+    background-color:rgba(222, 152, 152, 0.42) ;
+    display: block;
+    height: 450px;
+    width:1100px ;
+    margin-top: 100px;
+    margin-left:400px;
+}
+.section_3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -430px;
+}
+.block_4{
+    background-color: #CFA5A5;
+    display: block;
+    height: 220px;
+    width: 260px;
+    margin-left: 0px;
+    margin-top: 90px;
+}
+.block_5{
+    background-color: #CFA5A5;
+    display: block;
+    height: 220px;
+    width: 260px;
+    margin-left: 0px;
+    margin-top: 90px;
+}
+.block_6{
+    background-color: #CFA5A5;
+    display: block;
+    height: 220px;
+    width: 260px;
+    margin-left: 0px;
+    margin-top: 90px;
+}
+h5{
+    color: #77341d;
+    font-size: 22px;
+    margin-top: 10px;
+   text-align: center;
+}
+h6{
+    color: #3d101e81;
+    font-size: 90px;
+    margin-top: -87px;
+    margin-left: 221px;
+}
+.plus_2{
+    background-color: rgba(160, 79, 79, 0.58);
+    display: block;
+    height: 50.5px;
+    width: 41px;
+    margin-left: 219px;
+    margin-top: -77px;
+   
+}
+.footer-contact{
+    display: block;
+    background-color:#6296918a;
+    margin-top: 270px;
+    width: 1903px;
+    height: 90px;
+    text-align: center;
+}
+h7{
+    color:#2e4d4d ;
+    font-size: 20px;
+}
+.im{
+    margin-left: 1780px;
+    margin-top: -80px;
+}
+article{
+    color: #e8f8fd00;
+  }
+  
+.te{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 1200px;
+}
+.vk{
+    margin-top: -35px;
+    margin-left: 800px;
+}
+.im_2{
+    font-size: 20px;
+    margin-top: -10px;
+}
+.im_3{
+    font-size: 20px;
+    margin-top: -22px;
+    margin-left: 1360px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
