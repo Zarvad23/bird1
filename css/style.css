@@ -76,7 +76,94 @@ p{
     width: 260px;
     margin-left: 0px;
     margin-top: 90px;
+    position: relative;
 }
+
+
+/*Код для изменения стилей отображения всплывающего окна*/
+.block_1,
+.block_2,
+.block_3,
+.block_4,
+.block_5,
+.block_6{
+    position: relative;
+}
+
+.block_1::before,
+.block_2::before,
+.block_4::before,
+.block_5::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    opacity: 0;
+    border: 10px solid transparent;
+    border-right: 20px solid white;
+    transition: all 0.5s ease-in;
+}
+
+.block_3::before,
+.block_6::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    opacity: 0;
+    border: 10px solid transparent;
+    border-left: 20px solid white;
+    transition: all 0.5s ease-in;
+}
+
+.block_1:hover::before,
+.block_2:hover::before,
+.block_4:hover::before,
+.block_5:hover::before{
+    opacity: 1;
+    left: 100%;
+}
+
+.block_3:hover::before,
+.block_6:hover::before{
+    opacity: 1;
+    right: 100%;
+}
+/*Стиль самого окна ниже*/
+.buble{
+    z-index: 10000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+}
+
+.block_1:hover .buble,
+.block_2:hover .buble,
+.block_4:hover .buble,
+.block_5:hover .buble{
+    opacity: 1;
+    right: -110%;
+}
+
+.block_3:hover .buble,
+.block_6:hover .buble{
+    opacity: 1;
+    right: 110%;
+}
+
+/*Конец*/
+
 .plus{
     background-color: #E2F6F3;
     display: block;
@@ -234,9 +321,6 @@ article{
     margin-top: -22px;
     margin-left: 1360px;
 }
-
-
-
 
 
 
