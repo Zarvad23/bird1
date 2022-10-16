@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="test" uploadOnCheckin="5d7f733f-7868-42e0-b58b-df047fd915ed" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="test">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/www/zarvad.ru" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="test" />
+  </component>
+</project>
